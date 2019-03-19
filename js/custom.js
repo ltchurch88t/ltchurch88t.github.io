@@ -10,6 +10,7 @@
 4. Init Home Slider
 5. Init Classes Slider
 6. Init Pricing Slider
+7. Parallax Hero Content
 
 
 ******************************/
@@ -249,4 +250,16 @@ $(document).ready(function()
 		}
 	}
 
+});
+
+/*
+
+7. Parallax Hero Content
+
+*/
+window.addEventListener('scroll', function(e) {
+  var parallaxFactor = 0.2;
+  var scrolled = window.pageYOffset;
+  var background = document.querySelector('.hero_content');
+  background.style.transform = 'translateY(' + (scrolled * parallaxFactor) + 'px)';
 });
