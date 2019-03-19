@@ -287,6 +287,7 @@
 	.home_title h1
 	{
 		font-size: 48px;
+    word-break: break-all;
 	}
 	.button,
 	.button_2
