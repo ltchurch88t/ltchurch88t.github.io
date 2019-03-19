@@ -260,6 +260,6 @@ $(document).ready(function()
 window.addEventListener('scroll', function(e) {
   var parallaxFactor = 0.2;
   var scrolled = window.pageYOffset;
-  var background = document.querySelector('.hero_content');
+  var background = document.querySelector('.home_content');
   background.style.transform = 'translateY(' + (scrolled * parallaxFactor) + 'px)';
 });
