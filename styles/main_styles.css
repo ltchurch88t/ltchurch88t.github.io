@@ -669,6 +669,7 @@ section
 	letter-spacing: 0.2em;
 	line-height: 1.2;
 	padding-left: 6px;
+  opacity: 0;
   animation-delay: 1s;
   animation: 3s appear forwards;
 }
