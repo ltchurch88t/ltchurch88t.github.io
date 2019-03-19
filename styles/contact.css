@@ -617,10 +617,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #7800ff;
-	background-image: linear-gradient(to right, rgba(120,0,255,0.34), rgba(255,14,59,0.34));
-	background: #7800ff;
-	background: linear-gradient(to right, rgba(120,0,255,0.34), rgba(255,14,59,0.34));
+  background: linear-gradient(90deg, rgba(13,27,42,0.49763655462184875) 0%, rgba(119,141,169,0.5088410364145659) 100%)
 }
 .home_container
 {
