@@ -1010,6 +1010,8 @@ section
 .class_image
 {
 	position: absolute;
+  height: 100px;
+  width: 100px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
@@ -1025,6 +1027,12 @@ section
 	display: block;
 	position: relative;
 	height: 100%;
+  width: 100%;
+}
+.class_image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .class_image a::after
 {
