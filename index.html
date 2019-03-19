@@ -337,7 +337,7 @@
 							<!-- Slide -->
 							<div>
                 <!-- Calendly inline widget begin -->
-                <div class="calendly-inline-widget" data-url="https://calendly.com/cephalodocs" style="min-width:320px;height:580px;"></div>
+                <div class="calendly-inline-widget" data-url="https://calendly.com/cephalodocs" style="min-width:80vw;height:580px;"></div>
                 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
                 <!-- Calendly inline widget end -->
 							</div>
@@ -402,6 +402,14 @@
 			<div class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script></div>
 	</footer>
 </div>
+
+<style>
+@media (max-width: 500px) {
+  .calendly-inline-widget {
+    width: 90vw;
+  }
+}
+</style>
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="styles/bootstrap-4.1.2/popper.js"></script>
