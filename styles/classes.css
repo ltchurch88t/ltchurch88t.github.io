@@ -423,6 +423,9 @@ section
 	transform: translateY(-50%);
 	left: 60px;
 }
+.logo a {
+  color: #fff;
+}
 .main_nav ul li:not(:last-of-type)
 {
 	margin-right: 52px;
@@ -858,6 +861,7 @@ section
 {
 	display: inline-block;
 	position: relative;
+  color: #fff;
 }
 .footer_bar
 {
