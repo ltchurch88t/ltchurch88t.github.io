@@ -696,8 +696,13 @@ section
   font-weight: 700;
 }
 @keyframes appear {
+  from {
+    opacity: 0;
+    margin-bottom: 50px;
+  }
   to {
     opacity: 1;
+    margin-bottom: 0;
   }
 }
 .home_button
