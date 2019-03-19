@@ -272,7 +272,7 @@ section
 	height: 65px;
 	background: transparent;
 	text-align: center;
-	border: solid 2px #ff0e3b;
+	border: solid 2px #778DA9;
 	overflow: hidden;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -295,7 +295,7 @@ section
 	transform-origin: center center;
 	width: 130%;
 	height: 370%;
-	background: #ff0e3b;
+	background: #778DA9;
 	content: '';
 	z-index: 0;
 	-webkit-transition: all 600ms ease;
@@ -312,7 +312,7 @@ section
 	bottom: -15px;
 	width: 30px;
 	height: 30px;
-	background: #ff0e3b;
+	background: #778DA9;
 	content: '';
 	transform: rotate(-45deg);
 }
@@ -340,7 +340,7 @@ section
 }
 .button:hover a
 {
-	color: #ff0e3b;
+	color: #778DA9;
 }
 .button_2
 {
@@ -348,7 +348,7 @@ section
 	height: 65px;
 	background: transparent;
 	text-align: center;
-	border: solid 2px #ff0e3b;
+	border: solid 2px #778DA9;
 	overflow: hidden;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -375,7 +375,7 @@ section
 }
 .button_2:hover
 {
-	background: #ff0e3b;
+	background: #778DA9;
 }
 .section_subtitle
 {
@@ -402,9 +402,9 @@ section
 	top: 61px;
 	width: calc(100% - 314px);
 	height: 96px;
-	background: #190a49;
+	background: #0D1B2A;
 	z-index: 100;
-	border-bottom: solid 2px #ff0e3b;
+	border-bottom: solid 2px #778DA9;
 }
 .header_wrap
 {
@@ -437,7 +437,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #ff0e3b;
+	color: #778DA9;
 }
 .header_social
 {
@@ -478,7 +478,7 @@ section
 }
 .social ul li a:hover i
 {
-	color: #ff0e3b;
+	color: #778DA9;
 }
 .fixed_header
 {
@@ -487,8 +487,8 @@ section
 	left: 0;
 	width: 100%;
 	height: 70px;
-	background: #190a49;
-	border-bottom: solid 2px #ff0e3b;
+	background: #0D1B2A;
+	border-bottom: solid 2px #778DA9;
 	z-index: 100;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -518,7 +518,7 @@ section
 }
 .hamburger:hover i
 {
-	color: #ff0e3b;
+	color: #778DA9;
 }
 
 /*********************************
@@ -577,7 +577,7 @@ section
 }
 .menu_close:hover
 {
-	color: #ff0e3b;
+	color: #778DA9;
 }
 .menu_nav ul li:not(:last-of-type)
 {
@@ -593,7 +593,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #ff0e3b;
+	color: #778DA9;
 }
 .menu_social
 {
@@ -670,7 +670,7 @@ section
 }
 .class_box.new_class > div
 {
-	background: #ff0e3b;
+	background: #778DA9;
 }
 .class_image
 {
@@ -699,7 +699,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border: solid 3px #ff0e3b;
+	border: solid 3px #778DA9;
 	content: '';
 	border-radius: 50%;
 	opacity: 0;
@@ -715,7 +715,7 @@ section
 }
 .class_box:hover > div
 {
-	background: #190a49;
+	background: #0D1B2A;
 }
 .classes_title h3
 {
@@ -850,7 +850,7 @@ section
 
 .footer
 {
-	background: #190a49;
+	background: #0D1B2A;
 }
 .footer_content
 {
@@ -870,7 +870,7 @@ section
 {
 	font-size: 11px;
 	font-weight: 700;
-	color: #443586;
+	color: #1B263B;
 }
 .footer_row
 {
@@ -881,7 +881,7 @@ section
 	width: 95px;
 	height: 95px;
 	border-radius: 50%;
-	background: #0f0432;
+	background: #1B263B;
 }
 .footer_icon > div
 {
