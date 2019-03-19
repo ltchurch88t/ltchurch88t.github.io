@@ -682,7 +682,7 @@ section
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
   opacity: 0;
-  animation: 2s appear forwards;
+  animation: 3s appear forwards;
 }
 .home_title h1:not(:last-of-type)
 {
