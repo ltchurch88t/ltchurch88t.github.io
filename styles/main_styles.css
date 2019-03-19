@@ -669,6 +669,8 @@ section
 	letter-spacing: 0.2em;
 	line-height: 1.2;
 	padding-left: 6px;
+  animation-delay: 1s;
+  animation: 3s appear forwards;
 }
 .home_title
 {
@@ -682,7 +684,7 @@ section
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
   opacity: 0;
-  animation: 3s appear forwards;
+  animation: 4s appear forwards;
 }
 .home_title h1:not(:last-of-type)
 {
