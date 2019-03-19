@@ -691,7 +691,7 @@ section
 {
   font-weight: 700;
 }
-@keyframes weighted {
+@keyframes appear {
   to {
     opacity: 1;
   }
