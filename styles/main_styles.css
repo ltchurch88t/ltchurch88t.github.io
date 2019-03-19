@@ -422,6 +422,9 @@ section
 	transform: translateY(-50%);
 	left: 60px;
 }
+.logo a {
+  color: white;
+}
 .main_nav ul li:not(:last-of-type)
 {
 	margin-right: 52px;
@@ -436,7 +439,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #ff0e3b;
+	color: #778DA9;
 }
 .header_social
 {
