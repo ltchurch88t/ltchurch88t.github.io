@@ -262,4 +262,5 @@ window.addEventListener('scroll', function(e) {
   var scrolled = window.pageYOffset;
   var background = document.querySelector('.home_content');
   background.style.transform = 'translateY(' + (scrolled * parallaxFactor) + 'px)';
+  console.log(scrolled * parallaxFactor);
 });
