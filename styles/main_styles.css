@@ -39,6 +39,9 @@
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
+html {
+  background: rgb(13,27,42);
+}
 body
 {
 	font-family: 'Open Sans', sans-serif;
@@ -46,6 +49,23 @@ body
 	font-weight: 400;
 	background: #FFFFFF;
 	color: #a5a5a5;
+  opacity: 0;
+  transition: 1s ease;
+  animation: 1s fadeIn forwards;
+}
+body.fadeOut {
+  transition: 1s ease;
+  animation: 1s fadeOut forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
 }
 div
 {
