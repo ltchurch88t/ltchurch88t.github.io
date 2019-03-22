@@ -54,8 +54,8 @@ body
   animation: 1s fadeIn forwards;
 }
 body.fadeOut {
-  transition: 1s ease;
-  animation: 1s fadeOut forwards;
+  transition: 2s ease;
+  animation: 2s fadeOut forwards;
 }
 @keyframes fadeIn {
   to {
