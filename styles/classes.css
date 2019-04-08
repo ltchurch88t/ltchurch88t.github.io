@@ -746,11 +746,9 @@ section
 }
 .class_box.new_class > div .classes_title h3
 {
-	color: #ffffff;
 }
 .class_box:hover .classes_title h3
 {
-	color: #ffffff;
 }
 .classes_text
 {
@@ -758,7 +756,6 @@ section
 }
 .class_box.new_class > div .classes_text p
 {
-	color: #ffffff;
 }
 .classes_instructor
 {
@@ -778,12 +775,10 @@ section
 }
 .class_box:hover .classes_instructor a
 {
-	color: #ffffff;
 }
 .class_box.new_class > div .classes_instructor,
 .class_box.new_class > div .classes_instructor a
 {
-	color: #ffffff;
 }
 .new_class::after
 {
